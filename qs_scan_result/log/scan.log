@@ -1,0 +1,242 @@
+[2026-01-22 12:55:49,160] [      main] [ INFO] [com.ibm.quantumsafe.lang.driver.CryptoCli] - Path to scan : /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage
+[2026-01-22 12:55:49,169] [      main] [ INFO] [com.ibm.quantumsafe.lang.driver.CryptoCli] - Application Version : App Version : 2.2.5.0 Build Version : 202512.00077 -- Generated On Thu Jan 22 12:55:49 CET 2026
+[2026-01-22 12:55:49,172] [      main] [ INFO] [com.ibm.quantumsafe.lang.driver.CryptoCli] - Processing Language - .java
+[2026-01-22 12:55:49,207] [2-thread-1] [ INFO] [com.ibm.quantumsafe.integrator.impl.IntegratorAPIImpl] - Running Task: Getting Application name
+[2026-01-22 12:55:49,207] [2-thread-2] [ INFO] [com.ibm.quantumsafe.integrator.impl.IntegratorAPIImpl] - Running Task: Execution Started
+[2026-01-22 12:55:49,207] [2-thread-2] [ INFO] [com.ibm.quantumsafe.analytics.utility.DeleteTask] - Cleaning up output directory 
+[2026-01-22 12:55:49,208] [2-thread-1] [ INFO] [com.ibm.quantumsafe.integrator.impl.IntegratorAPIImpl] - Scanning initiated for the application :  
+[2026-01-22 12:55:49,208] [2-thread-2] [ INFO] [com.ibm.quantumsafe.analytics.utility.DeleteTask] - Cleaning up output directory completed. 
+[2026-01-22 12:55:49,208] [2-thread-2] [ INFO] [com.ibm.quantumsafe.integrator.impl.IntegratorAPIImpl] - **********************************
+[2026-01-22 12:55:49,208] [2-thread-2] [ INFO] [com.ibm.quantumsafe.integrator.impl.IntegratorAPIImpl] - +'Java' Scan Initiated !!!
+[2026-01-22 12:55:49,208] [2-thread-2] [ INFO] [com.ibm.quantumsafe.integrator.impl.IntegratorAPIImpl] - 
+[2026-01-22 12:55:49,215] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - App Version : 2.2.5.0 Build Version : 202512.00077 -- Generated On Thu Jan 22 12:55:49 CET 2026
+[2026-01-22 12:55:49,219] [2-thread-2] [ INFO] [com.ibm.quantumsafe.lang.driver.DriverBase] - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                PARAMETERS SENT TO SCA AND ANALYTICS
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ app-name                                : 
++ app-version                             : 
++ class-files-path                        : /target/classes;/target/dependency;/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage
++ clean-result-flag                       : true
++ data_analytics                          : da
++ error-log-file                          : /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/qs_scan_result/log/scan-errors.log
++ isDebugEnabled                          : false
++ parameter-class-catalogs-directory      : resource:class-catalog 
+
++ parameter-detail-results                : true
++ parameter-execution-mode                : multi-language-selection,build-data-for-crypto-analysis
++ parameter-language-processing-list      : .java
++ parameter-path-exclusion-filter         : 
++ parameter-run-single-step               : multi-language-selection,build-data-for-crypto-analysis
++ parameter-tab-size                      : 4
++ parameter-transaction-id                : c26279cc25464e8889f500e92affd424
++ parameter-use-absolute-source-paths     : true
++ project-output-dir                      : /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/qs_scan_result
++ project-output-root                     : /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage
++ root                                    : /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage
++ run-log-file                            : /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/qs_scan_result/log/scan.log
++ site_pkg                                : 
++ source-knowledge-base-db                : kb/cd_kb.db
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[2026-01-22 12:55:49,219] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.lang.general.task.impl.ClearAnalyticsScanResultsImpl] - Running Task: ClearAnalyticsScanResults
+[2026-01-22 12:55:49,222] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassAnalyzerAPI] - Validating and forming absolute class-path and dependencies path.
+[2026-01-22 12:55:49,223] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassAnalyzerAPI] - Loading jars from classpath
+[2026-01-22 12:55:49,258] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Running Task: com.ibm.quantumsafe.sca.lang.java.task.impl.AntlrJavaParserImpl
+[2026-01-22 12:55:49,261] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Running Task: com.ibm.quantumsafe.sca.framework.common.JavaGenerateGraphModelImpl
+[2026-01-22 12:55:49,280] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Total number of source files to be processed: 15
+[2026-01-22 12:55:49,523] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing     1/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/main/java/example/crypto/asymmetric/RsaCryptoExample.java
+[2026-01-22 12:55:49,664] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing     2/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/main/java/example/crypto/hash/HashExamples.java
+[2026-01-22 12:55:49,674] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing     3/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/main/java/example/crypto/jwt/JwtExample.java
+[2026-01-22 12:55:49,684] [2-thread-2] [ WARN] [com.ibm.quantumsafe.sca.typeresolver.javac.ResolveLocalClass] - Missing the dependency library information containing the dependency class com.auth0.jwt.interfaces.DecodedJWT.
+[2026-01-22 12:55:49,688] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing     4/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/main/java/example/crypto/keyderivation/Pbkdf2Example.java
+[2026-01-22 12:55:49,718] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing     5/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/main/java/example/crypto/random/SecureRandomExample.java
+[2026-01-22 12:55:49,724] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing     6/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/main/java/example/crypto/signature/SignatureExample.java
+[2026-01-22 12:55:49,775] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing     7/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/main/java/example/crypto/symmetric/AesEncryptionExample.java
+[2026-01-22 12:55:49,817] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing     8/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/main/java/example/crypto/tls/SslContextExample.java
+[2026-01-22 12:55:49,863] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing     9/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/tests_disabled/java/example/crypto/asymmetric/RsaCryptoExampleTest.java
+[2026-01-22 12:55:49,877] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing    10/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/tests_disabled/java/example/crypto/hash/HashExamplesTest.java
+[2026-01-22 12:55:49,889] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing    11/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/tests_disabled/java/example/crypto/jwt/JwtExampleTest.java
+[2026-01-22 12:55:49,903] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing    12/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/tests_disabled/java/example/crypto/keyderivation/Pbkdf2ExampleTest.java
+[2026-01-22 12:55:49,919] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing    13/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/tests_disabled/java/example/crypto/random/SecureRandomExampleTest.java
+[2026-01-22 12:55:49,927] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing    14/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/tests_disabled/java/example/crypto/signature/SignatureExampleTest.java
+[2026-01-22 12:55:49,935] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing    15/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/tests_disabled/java/example/crypto/symmetric/AesEncryptionExampleTest.java
+[2026-01-22 12:55:49,949] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Graph generated successfully for 7 out of 15 input source files.
+[2026-01-22 12:55:49,949] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Building slices ...
+[2026-01-22 12:55:50,020] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Building slices from graph ended.
+[2026-01-22 12:55:50,021] [2-thread-2] [ INFO] [com.ibm.quantumsafe.lang.driver.DriverBase] - Writing class resolver issue-summary
+[2026-01-22 12:55:50,029] [      main] [ INFO] [com.ibm.quantumsafe.lang.driver.ProductLicenseServiceUtils] - Number of lines scanned during current scan : 742
+[2026-01-22 12:55:50,031] [      main] [ INFO] [com.ibm.quantumsafe.lang.driver.ProductLicenseServiceUtils] - Cummulative number of lines scanned including the last scan : 742
+[2026-01-22 12:55:50,097] [      main] [ INFO] [com.ibm.cryptoanalytics.model.input.AnalyzedProgram] - Deserialization of Slicer JSON started.
+[2026-01-22 12:55:50,168] [      main] [ INFO] [com.ibm.cryptoanalytics.model.input.AnalyzedProgram] - Deserialization of Slicer JSON ended.
+[2026-01-22 12:55:50,239] [      main] [ INFO] [com.ibm.cryptoanalytics.analytics.CryptoAnalytics] - Crypto Analysis started.
+[2026-01-22 12:55:50,243] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Analysis of slices started.
+[2026-01-22 12:55:50,243] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [1/24] initiated.
+[2026-01-22 12:55:50,249] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [1/24] completed.
+[2026-01-22 12:55:50,249] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [2/24] initiated.
+[2026-01-22 12:55:50,252] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [2/24] completed.
+[2026-01-22 12:55:50,252] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [3/24] initiated.
+[2026-01-22 12:55:50,254] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [3/24] completed.
+[2026-01-22 12:55:50,254] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [4/24] initiated.
+[2026-01-22 12:55:50,256] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [4/24] completed.
+[2026-01-22 12:55:50,256] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [5/24] initiated.
+[2026-01-22 12:55:50,258] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [5/24] completed.
+[2026-01-22 12:55:50,258] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [6/24] initiated.
+[2026-01-22 12:55:50,260] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [6/24] completed.
+[2026-01-22 12:55:50,260] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [7/24] initiated.
+[2026-01-22 12:55:50,261] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [7/24] completed.
+[2026-01-22 12:55:50,261] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [8/24] initiated.
+[2026-01-22 12:55:50,262] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [8/24] completed.
+[2026-01-22 12:55:50,262] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [9/24] initiated.
+[2026-01-22 12:55:50,264] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [9/24] completed.
+[2026-01-22 12:55:50,264] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [10/24] initiated.
+[2026-01-22 12:55:50,266] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [10/24] completed.
+[2026-01-22 12:55:50,267] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [11/24] initiated.
+[2026-01-22 12:55:50,269] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [11/24] completed.
+[2026-01-22 12:55:50,269] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [12/24] initiated.
+[2026-01-22 12:55:50,272] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [12/24] completed.
+[2026-01-22 12:55:50,272] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [13/24] initiated.
+[2026-01-22 12:55:50,275] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [13/24] completed.
+[2026-01-22 12:55:50,275] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [14/24] initiated.
+[2026-01-22 12:55:50,278] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [14/24] completed.
+[2026-01-22 12:55:50,278] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [15/24] initiated.
+[2026-01-22 12:55:50,281] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [15/24] completed.
+[2026-01-22 12:55:50,281] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [16/24] initiated.
+[2026-01-22 12:55:50,284] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [16/24] completed.
+[2026-01-22 12:55:50,284] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [17/24] initiated.
+[2026-01-22 12:55:50,286] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [17/24] completed.
+[2026-01-22 12:55:50,286] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [18/24] initiated.
+[2026-01-22 12:55:50,289] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [18/24] completed.
+[2026-01-22 12:55:50,289] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [19/24] initiated.
+[2026-01-22 12:55:50,291] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [19/24] completed.
+[2026-01-22 12:55:50,291] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [20/24] initiated.
+[2026-01-22 12:55:50,295] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [20/24] completed.
+[2026-01-22 12:55:50,295] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [21/24] initiated.
+[2026-01-22 12:55:50,297] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [21/24] completed.
+[2026-01-22 12:55:50,297] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [22/24] initiated.
+[2026-01-22 12:55:50,298] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [22/24] completed.
+[2026-01-22 12:55:50,298] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [23/24] initiated.
+[2026-01-22 12:55:50,298] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [23/24] completed.
+[2026-01-22 12:55:50,298] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [24/24] initiated.
+[2026-01-22 12:55:50,299] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [24/24] completed.
+[2026-01-22 12:55:50,299] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Analysis of slices ended.
+[2026-01-22 13:00:35,789] [      main] [ INFO] [com.ibm.quantumsafe.lang.driver.CryptoCli] - Path to scan : /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage
+[2026-01-22 13:00:35,798] [      main] [ INFO] [com.ibm.quantumsafe.lang.driver.CryptoCli] - Application Version : App Version : 2.2.5.0 Build Version : 202512.00077 -- Generated On Thu Jan 22 13:00:35 CET 2026
+[2026-01-22 13:00:35,801] [      main] [ INFO] [com.ibm.quantumsafe.lang.driver.CryptoCli] - Processing Language - .java
+[2026-01-22 13:00:35,829] [2-thread-1] [ INFO] [com.ibm.quantumsafe.integrator.impl.IntegratorAPIImpl] - Running Task: Getting Application name
+[2026-01-22 13:00:35,829] [2-thread-2] [ INFO] [com.ibm.quantumsafe.integrator.impl.IntegratorAPIImpl] - Running Task: Execution Started
+[2026-01-22 13:00:35,830] [2-thread-2] [ INFO] [com.ibm.quantumsafe.analytics.utility.DeleteTask] - Cleaning up output directory 
+[2026-01-22 13:00:35,830] [2-thread-1] [ INFO] [com.ibm.quantumsafe.integrator.impl.IntegratorAPIImpl] - Scanning initiated for the application : Abstracted-Crypto-Usage
+[2026-01-22 13:00:35,843] [2-thread-2] [ INFO] [com.ibm.quantumsafe.analytics.utility.DeleteTask] - Cleaning up output directory completed. 
+[2026-01-22 13:00:35,843] [2-thread-2] [ INFO] [com.ibm.quantumsafe.integrator.impl.IntegratorAPIImpl] - **********************************
+[2026-01-22 13:00:35,843] [2-thread-2] [ INFO] [com.ibm.quantumsafe.integrator.impl.IntegratorAPIImpl] - +'Java' Scan Initiated !!!
+[2026-01-22 13:00:35,844] [2-thread-2] [ INFO] [com.ibm.quantumsafe.integrator.impl.IntegratorAPIImpl] - 
+[2026-01-22 13:00:35,849] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - App Version : 2.2.5.0 Build Version : 202512.00077 -- Generated On Thu Jan 22 13:00:35 CET 2026
+[2026-01-22 13:00:35,853] [2-thread-2] [ INFO] [com.ibm.quantumsafe.lang.driver.DriverBase] - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                PARAMETERS SENT TO SCA AND ANALYTICS
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ app-name                                : 
++ app-version                             : 
++ class-files-path                        : /target/classes;/target/dependency;/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage
++ clean-result-flag                       : true
++ data_analytics                          : da
++ error-log-file                          : /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/qs_scan_result/log/scan-errors.log
++ isDebugEnabled                          : false
++ parameter-class-catalogs-directory      : resource:class-catalog 
+
++ parameter-detail-results                : true
++ parameter-execution-mode                : multi-language-selection,build-data-for-crypto-analysis
++ parameter-language-processing-list      : .java
++ parameter-path-exclusion-filter         : 
++ parameter-run-single-step               : multi-language-selection,build-data-for-crypto-analysis
++ parameter-tab-size                      : 4
++ parameter-transaction-id                : 89f2b020fb0848e492bd34500628a119
++ parameter-use-absolute-source-paths     : true
++ project-output-dir                      : /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/qs_scan_result
++ project-output-root                     : /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage
++ root                                    : /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage
++ run-log-file                            : /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/qs_scan_result/log/scan.log
++ site_pkg                                : 
++ source-knowledge-base-db                : kb/cd_kb.db
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[2026-01-22 13:00:35,853] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.lang.general.task.impl.ClearAnalyticsScanResultsImpl] - Running Task: ClearAnalyticsScanResults
+[2026-01-22 13:00:35,855] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassAnalyzerAPI] - Validating and forming absolute class-path and dependencies path.
+[2026-01-22 13:00:35,856] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.typeresolver.javac.ClassAnalyzerAPI] - Loading jars from classpath
+[2026-01-22 13:00:35,896] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Running Task: com.ibm.quantumsafe.sca.lang.java.task.impl.AntlrJavaParserImpl
+[2026-01-22 13:00:35,897] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Running Task: com.ibm.quantumsafe.sca.framework.common.JavaGenerateGraphModelImpl
+[2026-01-22 13:00:35,918] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.framework.standalone.StandaloneTask] - Total number of source files to be processed: 15
+[2026-01-22 13:00:36,183] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing     1/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/main/java/example/crypto/asymmetric/RsaCryptoExample.java
+[2026-01-22 13:00:36,317] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing     2/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/main/java/example/crypto/hash/HashExamples.java
+[2026-01-22 13:00:36,327] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing     3/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/main/java/example/crypto/jwt/JwtExample.java
+[2026-01-22 13:00:36,337] [2-thread-2] [ WARN] [com.ibm.quantumsafe.sca.typeresolver.javac.ResolveLocalClass] - Missing the dependency library information containing the dependency class com.auth0.jwt.interfaces.DecodedJWT.
+[2026-01-22 13:00:36,341] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing     4/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/main/java/example/crypto/keyderivation/Pbkdf2Example.java
+[2026-01-22 13:00:36,368] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing     5/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/main/java/example/crypto/random/SecureRandomExample.java
+[2026-01-22 13:00:36,373] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing     6/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/main/java/example/crypto/signature/SignatureExample.java
+[2026-01-22 13:00:36,420] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing     7/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/main/java/example/crypto/symmetric/AesEncryptionExample.java
+[2026-01-22 13:00:36,451] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing     8/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/main/java/example/crypto/tls/SslContextExample.java
+[2026-01-22 13:00:36,487] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing     9/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/tests_disabled/java/example/crypto/asymmetric/RsaCryptoExampleTest.java
+[2026-01-22 13:00:36,502] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing    10/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/tests_disabled/java/example/crypto/hash/HashExamplesTest.java
+[2026-01-22 13:00:36,514] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing    11/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/tests_disabled/java/example/crypto/jwt/JwtExampleTest.java
+[2026-01-22 13:00:36,528] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing    12/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/tests_disabled/java/example/crypto/keyderivation/Pbkdf2ExampleTest.java
+[2026-01-22 13:00:36,547] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing    13/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/tests_disabled/java/example/crypto/random/SecureRandomExampleTest.java
+[2026-01-22 13:00:36,554] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing    14/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/tests_disabled/java/example/crypto/signature/SignatureExampleTest.java
+[2026-01-22 13:00:36,564] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Analyzing    15/15 /Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage/src/tests_disabled/java/example/crypto/symmetric/AesEncryptionExampleTest.java
+[2026-01-22 13:00:36,578] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Graph generated successfully for 7 out of 15 input source files.
+[2026-01-22 13:00:36,578] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Building slices ...
+[2026-01-22 13:00:36,654] [2-thread-2] [ INFO] [com.ibm.quantumsafe.sca.slicer.AppData] - Building slices from graph ended.
+[2026-01-22 13:00:36,655] [2-thread-2] [ INFO] [com.ibm.quantumsafe.lang.driver.DriverBase] - Writing class resolver issue-summary
+[2026-01-22 13:00:36,660] [      main] [ INFO] [com.ibm.quantumsafe.lang.driver.ProductLicenseServiceUtils] - Number of lines scanned during current scan : 742
+[2026-01-22 13:00:36,662] [      main] [ INFO] [com.ibm.quantumsafe.lang.driver.ProductLicenseServiceUtils] - Cummulative number of lines scanned including the last scan : 1484
+[2026-01-22 13:00:36,732] [      main] [ INFO] [com.ibm.cryptoanalytics.model.input.AnalyzedProgram] - Deserialization of Slicer JSON started.
+[2026-01-22 13:00:36,799] [      main] [ INFO] [com.ibm.cryptoanalytics.model.input.AnalyzedProgram] - Deserialization of Slicer JSON ended.
+[2026-01-22 13:00:36,863] [      main] [ INFO] [com.ibm.cryptoanalytics.analytics.CryptoAnalytics] - Crypto Analysis started.
+[2026-01-22 13:00:36,866] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Analysis of slices started.
+[2026-01-22 13:00:36,866] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [1/24] initiated.
+[2026-01-22 13:00:36,872] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [1/24] completed.
+[2026-01-22 13:00:36,872] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [2/24] initiated.
+[2026-01-22 13:00:36,875] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [2/24] completed.
+[2026-01-22 13:00:36,875] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [3/24] initiated.
+[2026-01-22 13:00:36,877] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [3/24] completed.
+[2026-01-22 13:00:36,877] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [4/24] initiated.
+[2026-01-22 13:00:36,879] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [4/24] completed.
+[2026-01-22 13:00:36,879] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [5/24] initiated.
+[2026-01-22 13:00:36,881] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [5/24] completed.
+[2026-01-22 13:00:36,881] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [6/24] initiated.
+[2026-01-22 13:00:36,883] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [6/24] completed.
+[2026-01-22 13:00:36,883] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [7/24] initiated.
+[2026-01-22 13:00:36,885] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [7/24] completed.
+[2026-01-22 13:00:36,885] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [8/24] initiated.
+[2026-01-22 13:00:36,886] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [8/24] completed.
+[2026-01-22 13:00:36,886] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [9/24] initiated.
+[2026-01-22 13:00:36,888] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [9/24] completed.
+[2026-01-22 13:00:36,888] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [10/24] initiated.
+[2026-01-22 13:00:36,890] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [10/24] completed.
+[2026-01-22 13:00:36,890] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [11/24] initiated.
+[2026-01-22 13:00:36,893] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [11/24] completed.
+[2026-01-22 13:00:36,893] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [12/24] initiated.
+[2026-01-22 13:00:36,896] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [12/24] completed.
+[2026-01-22 13:00:36,896] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [13/24] initiated.
+[2026-01-22 13:00:36,899] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [13/24] completed.
+[2026-01-22 13:00:36,899] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [14/24] initiated.
+[2026-01-22 13:00:36,902] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [14/24] completed.
+[2026-01-22 13:00:36,902] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [15/24] initiated.
+[2026-01-22 13:00:36,905] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [15/24] completed.
+[2026-01-22 13:00:36,905] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [16/24] initiated.
+[2026-01-22 13:00:36,908] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [16/24] completed.
+[2026-01-22 13:00:36,908] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [17/24] initiated.
+[2026-01-22 13:00:36,910] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [17/24] completed.
+[2026-01-22 13:00:36,910] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [18/24] initiated.
+[2026-01-22 13:00:36,913] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [18/24] completed.
+[2026-01-22 13:00:36,913] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [19/24] initiated.
+[2026-01-22 13:00:36,915] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [19/24] completed.
+[2026-01-22 13:00:36,915] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [20/24] initiated.
+[2026-01-22 13:00:36,918] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [20/24] completed.
+[2026-01-22 13:00:36,918] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [21/24] initiated.
+[2026-01-22 13:00:36,920] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [21/24] completed.
+[2026-01-22 13:00:36,920] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [22/24] initiated.
+[2026-01-22 13:00:36,921] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [22/24] completed.
+[2026-01-22 13:00:36,921] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [23/24] initiated.
+[2026-01-22 13:00:36,922] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [23/24] completed.
+[2026-01-22 13:00:36,922] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [24/24] initiated.
+[2026-01-22 13:00:36,923] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Building asset from slice [24/24] completed.
+[2026-01-22 13:00:36,923] [      main] [ INFO] [com.ibm.cryptoanalytics.analysis.CryptoAssetAnalysis] - Analysis of slices ended.
