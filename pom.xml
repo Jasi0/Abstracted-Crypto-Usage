@@ -10,7 +10,7 @@
   <packaging>jar</packaging>
 
   <name>Abstracted-Crypto-Usage</name>
-  <description>Maven POM converted from Gradle build for Abstracted-Crypto-Usage</description>
+  <description>Crypto usage examples in Java, Python, and Go; Maven build for Java module</description>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -32,6 +32,16 @@
       <groupId>com.auth0</groupId>
       <artifactId>java-jwt</artifactId>
       <version>${java.jwt.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bcprov-jdk18on</artifactId>
+      <version>1.78.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bcpkix-jdk18on</artifactId>
+      <version>1.78.1</version>
     </dependency>
 
     <!-- Test dependencies -->
@@ -61,14 +71,26 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.2.5</version>
         <configuration>
-          <!-- Work well with plain classpaths, avoid JPMS issues on Java 17 -->
           <useModulePath>false</useModulePath>
+        </configuration>
+      </plugin>
+
+      <!-- Jar plugin -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.4.1</version>
+        <configuration>
+          <archive>
+            <manifest>
+              <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+            </manifest>
+          </archive>
         </configuration>
       </plugin>
     </plugins>
   </build>
 
-  <!-- Maven Central is default; declared explicitly for clarity -->
   <repositories>
     <repository>
       <id>central</id>
