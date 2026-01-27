@@ -33,7 +33,7 @@ import org.bouncycastle.operator.ContentSigner;
 import org.bouncycastle.operator.jcajce.JcaContentSignerBuilder;
 
 
-// Demonstrates X.509 certificate generation and self-signing.
+// Demonstrates X.509 certificate generation and self-signing
 public class X509Example {
 
     static {
@@ -43,7 +43,7 @@ public class X509Example {
     }
 
     
-    // Generates a self-signed X.509 certificate and a private key.
+    // Generates a self-signed X.509 certificate and a private key
     /**
        @param commonName 
        @param keyType 
@@ -88,7 +88,7 @@ public class X509Example {
                     serial,
                     notBefore,
                     notAfter,
-                    subject, // self-signed => issuer = subject
+                    subject, 
                     spki
             );
 
@@ -110,7 +110,7 @@ public class X509Example {
     }
 
     
-    // Saves a PEM-encoded certificate to disk.
+    // Saves a PEM-encoded certificate 
     /**
        @param cert 
        @param path 
@@ -131,7 +131,7 @@ public class X509Example {
     }
 
     
-    // Saves a PKCS#8 PEM-encoded private key to disk (without password protection).
+    // Saves a PKCS#8 PEM-encoded private key 
     /**
        @param privateKey 
        @param path 
@@ -152,7 +152,7 @@ public class X509Example {
     }
 
     
-    // Loads a certificate from PEM.
+    // Loads a certificate from PEM
     /**
        @param path 
        @return 
@@ -172,7 +172,7 @@ public class X509Example {
     }
 
     
-    // Verifies a self-signed certificate's signature using its public key.
+    // Verifies a self-signed certificate's signature 
     /**
        @param cert 
        @return 
@@ -187,13 +187,13 @@ public class X509Example {
         }
     }
 
-    // Utility: wraps DER bytes into a PEM block.
+    //wraps DER bytes into a PEM block
     private static String toPem(String type, byte[] der) {
         String base64 = Base64.getMimeEncoder(64, new byte[]{'\n'}).encodeToString(der);
         return "-----BEGIN " + type + "-----\n" + base64 + "\n-----END " + type + "-----\n";
         }
 
-    // Utility: extracts the Base64 content from a PEM block.
+    // extracts the Base64 content from a PEM block
     private static String extractPemContent(String pem, String type) {
         String begin = "-----BEGIN " + type + "-----";
         String end = "-----END " + type + "-----";
@@ -206,7 +206,7 @@ public class X509Example {
         return base64.replaceAll("\\s", "");
     }
 
-    // Holds a generated certificate and its private key.
+    // Holds a generated certificate and its private key
     public static class GeneratedCert {
         public final X509Certificate certificate;
         public final PrivateKey privateKey;

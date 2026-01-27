@@ -15,19 +15,18 @@ import com.auth0.jwt.interfaces.DecodedJWT;
 
 
 // Demonstrates JWT creation and verification using java-jwt
-// Supports HS256 (shared secret) and RS256 (RSA key pair)
 public class JwtExample {
 
+    
+    // Creates an HS256-signed JWT
     /**
-     * Creates an HS256-signed JWT.
-     *
-     * @param subject       the subject (sub)
-     * @param issuer        the issuer (iss)
-     * @param issuedAt      issued-at time (iat)
-     * @param expiresAt     expiration time (exp)
-     * @param customClaims  optional custom claims (String -> String)
-     * @param secret        shared secret for HS256
-     * @return signed JWT token string
+      @param subject       
+      @param issuer       
+      @param issuedAt 
+      @param expiresAt    
+      @param customClaims 
+      @param secret      
+      @return 
      */
     public static String createHs256Token(
             String subject,
@@ -62,7 +61,7 @@ public class JwtExample {
     }
 
     
-    // Verifies an HS256-signed JWT with the provided secret and expected issuer.
+    // Verifies an HS256-signed JWT with the provided secret and expected issuer
     /**  
       @param token          
       @param secret         
@@ -81,7 +80,7 @@ public class JwtExample {
     }
 
     
-     // Creates an RS256-signed JWT using an RSA private key.
+     // Creates an RS256-signed JWT using an RSA private key
      /** 
       @param subject       
       @param issuer     
@@ -124,7 +123,7 @@ public class JwtExample {
     }
 
     
-    // Verifies an RS256-signed JWT using an RSA public key and optional expected issuer.
+    // Verifies an RS256-signed JWT using an RSA public key and optional expected issuer
     /**  
       @param token          
       @param publicKey      

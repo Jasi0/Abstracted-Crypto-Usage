@@ -6,13 +6,13 @@ import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
 
 
-// Demonstrates HMAC operations using SHA-256.
+// Demonstrates HMAC operations using SHA-256
 public class HmacExample {
 
     public static final int DEFAULT_KEY_LENGTH_BYTES = 32;
 
     
-    // Generates a new random HMAC key using a cryptographically secure source.
+    // Generates a new random HMAC key 
     /**
        @param lengthBytes 
        @return 
@@ -27,7 +27,7 @@ public class HmacExample {
     }
 
     
-    // Computes an HMAC tag for input data using SHA-256.
+    // Computes an HMAC tag for input data using SHA-256
     /**
        @param key 
        @param data 
@@ -50,7 +50,7 @@ public class HmacExample {
     }
 
     
-    // Verifies an HMAC tag using SHA-256 in a constant-time manner.
+    // Verifies an HMAC tag using SHA-256 
     /**
        @param key 
        @param data 
@@ -71,7 +71,7 @@ public class HmacExample {
         return constantTimeEquals(expected, tag);
     }
 
-    // Compares two byte arrays in constant time.
+    // Compares two byte arrays in constant time
     private static boolean constantTimeEquals(byte[] a, byte[] b) {
         if (a == null || b == null) {
             return false;

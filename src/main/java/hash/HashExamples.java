@@ -4,7 +4,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 
-// Demonstrates basic hashing algorithms using Java MessageDigest.
+// Demonstrates basic hashing algorithms using Java MessageDigest
 public class HashExamples {
 
     public static byte[] hashSha256(byte[] input) {

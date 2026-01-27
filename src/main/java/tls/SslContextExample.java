@@ -59,8 +59,8 @@ public class SslContextExample {
             SSLContext ctx = SSLContext.getInstance("TLS");
             TrustManager[] trustAll = new TrustManager[] {
                 new X509TrustManager() {
-                    public void checkClientTrusted(X509Certificate[] chain, String authType) { /* no-op, insecure */ }
-                    public void checkServerTrusted(X509Certificate[] chain, String authType) { /* no-op, insecure */ }
+                    public void checkClientTrusted(X509Certificate[] chain, String authType) {  }
+                    public void checkServerTrusted(X509Certificate[] chain, String authType) {  }
                     public X509Certificate[] getAcceptedIssuers() { return new X509Certificate[0]; }
                 }
             };
