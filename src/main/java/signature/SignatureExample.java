@@ -10,7 +10,7 @@ import java.security.spec.MGF1ParameterSpec;
 import java.security.spec.PSSParameterSpec;
 
 
-// Demonstrates digital signatures using RSA (PKCS#1 v1.5 and RSA-PSS) and ECDSA (P-256)
+// Demonstrates digital signatures using RSA  and ECDSA 
 public class SignatureExample {
 
     
@@ -26,7 +26,7 @@ public class SignatureExample {
     }
 
     
-    // Generates an EC KeyPair using curve secp256r1 (aka NIST P-256)
+    // Generates an EC KeyPair using curve secp256r1
     public static KeyPair generateEcKeyPairP256() {
         try {
             KeyPairGenerator kpg = KeyPairGenerator.getInstance("EC");
@@ -38,7 +38,7 @@ public class SignatureExample {
     }
 
 
-    // RSA-PKCS#1 v1.5 signature using SHA-256 (legacy example)
+    // RSA-PKCS#1 signature using SHA-256
     public static byte[] signRsaPkcs1Sha256(byte[] data, PrivateKey privateKey) {
         try {
             Signature signature = Signature.getInstance("SHA256withRSA");
@@ -51,7 +51,7 @@ public class SignatureExample {
     }
 
     
-    // Verifies RSA-PKCS#1 v1.5 signature with SHA-256
+    // Verifies RSA-PKCS#1 signature with SHA-256
     public static boolean verifyRsaPkcs1Sha256(byte[] data, byte[] signatureBytes, PublicKey publicKey) {
         try {
             Signature signature = Signature.getInstance("SHA256withRSA");
@@ -106,7 +106,7 @@ public class SignatureExample {
     }
 
 
-     // ECDSA signature using SHA-256 (curve P-256)
+     // ECDSA signature using SHA-256 
     public static byte[] signEcdsaSha256(byte[] data, PrivateKey privateKey) {
         try {
             Signature signature = Signature.getInstance("SHA256withECDSA");
@@ -119,7 +119,7 @@ public class SignatureExample {
     }
 
 
-    // Verifies ECDSA signature with SHA-256 (curve P-256)
+    // Verifies ECDSA signature with SHA-256 
     public static boolean verifyEcdsaSha256(byte[] data, byte[] signatureBytes, PublicKey publicKey) {
         try {
             Signature signature = Signature.getInstance("SHA256withECDSA");

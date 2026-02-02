@@ -19,10 +19,15 @@
     <slf4j.version>2.0.9</slf4j.version>
     <java.jwt.version>4.5.0</java.jwt.version>
     <junit.jupiter.version>5.10.1</junit.jupiter.version>
+
+    <!-- Newly added properties -->
+    <spring.boot.version>3.2.2</spring.boot.version>
+    <resteasy.version>6.2.5.Final</resteasy.version>
+    <jakarta.ws.rs.version>3.1.0</jakarta.ws.rs.version>
   </properties>
 
   <dependencies>
-    <!-- Implementation dependencies -->
+    <!-- Existing implementation dependencies -->
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
@@ -51,6 +56,36 @@
       <version>9.22.3</version>
     </dependency>
 
+    <!-- New: Spring Boot (non-crypto web endpoints) -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+      <version>${spring.boot.version}</version>
+    </dependency>
+
+
+    <!-- New: RESTEasy + Undertow (standalone server on port 8081) -->
+    <dependency>
+      <groupId>org.jboss.resteasy</groupId>
+      <artifactId>resteasy-undertow</artifactId>
+      <version>${resteasy.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.resteasy</groupId>
+      <artifactId>resteasy-core</artifactId>
+      <version>${resteasy.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.resteasy</groupId>
+      <artifactId>resteasy-jackson2-provider</artifactId>
+      <version>${resteasy.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>jakarta.ws.rs</groupId>
+      <artifactId>jakarta.ws.rs-api</artifactId>
+      <version>${jakarta.ws.rs.version}</version>
+    </dependency>
+
     <!-- Test dependencies -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
@@ -62,13 +97,16 @@
 
   <build>
     <plugins>
-      <!-- Ensure Java 17 compilation -->
+      <!-- Ensure Java 17 compilation and Lombok annotation processing -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.11.0</version>
         <configuration>
           <release>${maven.compiler.release}</release>
+          <compilerArgs>
+            <arg>-proc:none</arg>
+          </compilerArgs>
         </configuration>
       </plugin>
 
@@ -93,6 +131,23 @@
               <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
             </manifest>
           </archive>
+        </configuration>
+      </plugin>
+
+      <!-- New: Spring Boot plugin (for spring-boot:run) -->
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+        <version>${spring.boot.version}</version>
+      </plugin>
+
+      <!-- New: Exec plugin for running RESTEasy Undertow main class easily -->
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>3.1.0</version>
+        <configuration>
+          <mainClass>web.resteasy.UndertowServer</mainClass>
         </configuration>
       </plugin>
     </plugins>

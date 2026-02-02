@@ -51,7 +51,7 @@ public class AesEncryptionExample {
     }
 
 
-    // Encrypts data using AES/CBC/PKCS5Padding (legacy example)
+    // Encrypts data using AES/CBC/PKCS5Padding 
     public static byte[] encryptCbc(byte[] plaintext, SecretKey key, byte[] iv) {
         try {
             Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5Padding");

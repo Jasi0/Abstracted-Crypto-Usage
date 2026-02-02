@@ -11,7 +11,7 @@ import javax.crypto.spec.SecretKeySpec;
 import random.SecureRandomExample;
 
 
-// Demonstrates PBKDF2 key derivation using HMAC-SHA-256.
+// Demonstrates PBKDF2 key derivation using HMAC-SHA-256
  
 public class Pbkdf2Example {
 
@@ -21,7 +21,7 @@ public class Pbkdf2Example {
     public static final int DEFAULT_SALT_LENGTH_BYTES = 16;
 
     
-    // Derives an AES SecretKey from a password and salt using default parameters
+    // Derives an AES SecretKey from a password and salt
     /**  
        @param password 
        @param salt 
@@ -32,7 +32,7 @@ public class Pbkdf2Example {
     }
 
    
-     // Derives an AES SecretKey from a password and salt using supplied parameters.
+     // Derives an AES SecretKey from a password and salt 
      /**
        @param password 
        @param salt 
@@ -64,7 +64,7 @@ public class Pbkdf2Example {
     }
 
     
-    // Generates a new random salt using SecureRandomExample with default length (16 bytes).
+    // Generates a new random salt using SecureRandomExample 
     /**
        @return 
     */

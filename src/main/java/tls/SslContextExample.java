@@ -18,12 +18,10 @@ import javax.net.ssl.X509TrustManager;
 public class SslContextExample {
 
     
-    // Creates an SSLContext using system default TrustManager and KeyManager.
-    // Protocol: TLSv1.3 (falls back to provider-supported TLS if unavailable)
-    
+    // Creates an SSLContext using system default TrustManager and KeyManager
     public static SSLContext createDefaultTlsContext() {
         try {
-            // Use TLSv1.3 if the provider supports it; otherwise TLS
+            // Use TLSv1.3 if the provider supports it, otherwise TLS
             SSLContext ctx;
             try {
                 ctx = SSLContext.getInstance("TLSv1.3");
@@ -53,7 +51,7 @@ public class SslContextExample {
     }
 
 
-    // Creates an SSLContext with an insecure TrustManager that accepts all certificates without validation
+    // Creates an SSLContext with an insecure TrustManager that accepts all certificates
     public static SSLContext createInsecureTrustAllTlsContext() {
         try {
             SSLContext ctx = SSLContext.getInstance("TLS");

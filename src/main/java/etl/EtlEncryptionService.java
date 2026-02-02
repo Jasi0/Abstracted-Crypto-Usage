@@ -28,7 +28,6 @@ public class EtlEncryptionService {
             byte[] aesKey = new byte[16];
             System.arraycopy(keyBytes, 0, aesKey, 0, aesKey.length);
 
-            // Uses deterministic IV derived from salt 
             byte[] ivFull = sha256(salt);
             byte[] iv = new byte[12];
             System.arraycopy(ivFull, 0, iv, 0, iv.length);
