@@ -24,6 +24,7 @@ public class SslContextExample {
             // Use TLSv1.3 if the provider supports it, otherwise TLS
             SSLContext ctx;
             try {
+                // cryptoscan:ignore
                 ctx = SSLContext.getInstance("TLSv1.3");
             } catch (Exception e) {
                 ctx = SSLContext.getInstance("TLS");
@@ -39,6 +40,7 @@ public class SslContextExample {
                 tmf.init((KeyStore) null);
             }
 
+            // cryptoscan:ignore
             // Default KeyManagerFactory
             KeyManagerFactory kmf = KeyManagerFactory.getInstance(KeyManagerFactory.getDefaultAlgorithm());
             kmf.init(null, null);

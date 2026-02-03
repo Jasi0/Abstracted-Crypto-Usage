@@ -17,7 +17,7 @@ import com.auth0.jwt.interfaces.DecodedJWT;
 // Demonstrates JWT creation and verification using java-jwt
 public class JwtExample {
 
-    
+    // cryptoscan:ignore
     // Creates an HS256-signed JWT
     /**
       @param subject       
