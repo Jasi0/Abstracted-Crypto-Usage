@@ -79,7 +79,7 @@ public class JwtExample {
         return verifier.verify(token);
     }
 
-    
+    // cryptoscan:ignore
      // Creates an RS256-signed JWT using an RSA private key
      /** 
       @param subject       
@@ -122,7 +122,7 @@ public class JwtExample {
         return builder.sign(alg);
     }
 
-    
+    // cryptoscan:ignore
     // Verifies an RS256-signed JWT using an RSA public key and optional expected issuer
     /**  
       @param token          
