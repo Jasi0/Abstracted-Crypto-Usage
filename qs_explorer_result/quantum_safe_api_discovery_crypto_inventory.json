@@ -1,0 +1,913 @@
+{
+  "scanId": "d8d0c4af-a0ce-4739-ac16-12f339a8e146",
+  "applicationId": "",
+  "applicationVersion": "",
+  "scanTime": "2026-02-08T20:42:59.040921Z",
+  "totalCryptoArtifacts": "97",
+  "findings": [
+    {
+      "fileType": "java",
+      "children": [
+        {
+          "fileName": "src/main/java/symmetric/AesEncryptionExample.java",
+          "cryptoArtifacts": 21,
+          "cryptoInfo": [
+            {
+              "functionName": "java.security.SecureRandom.SecureRandom",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 15,
+                  "startColumn": 52,
+                  "endColumn": 64
+                }
+              ]
+            },
+            {
+              "functionName": "javax.crypto.KeyGenerator.getInstance",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 19,
+                  "startColumn": 54,
+                  "endColumn": 65
+                }
+              ]
+            },
+            {
+              "functionName": "javax.crypto.KeyGenerator.init",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 20,
+                  "startColumn": 26,
+                  "endColumn": 30
+                }
+              ]
+            },
+            {
+              "functionName": "javax.crypto.KeyGenerator.generateKey",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 21,
+                  "startColumn": 33,
+                  "endColumn": 44
+                }
+              ]
+            },
+            {
+              "functionName": "javax.crypto.spec.GCMParameterSpec.GCMParameterSpec",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 45,
+                  "startColumn": 41,
+                  "endColumn": 57
+                },
+                {
+                  "line": 32,
+                  "startColumn": 41,
+                  "endColumn": 57
+                }
+              ]
+            },
+            {
+              "functionName": "javax.crypto.Cipher.init",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 46,
+                  "startColumn": 20,
+                  "endColumn": 24
+                },
+                {
+                  "line": 33,
+                  "startColumn": 20,
+                  "endColumn": 24
+                },
+                {
+                  "line": 70,
+                  "startColumn": 20,
+                  "endColumn": 24
+                },
+                {
+                  "line": 58,
+                  "startColumn": 20,
+                  "endColumn": 24
+                }
+              ]
+            },
+            {
+              "functionName": "javax.crypto.Cipher.getInstance",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 57,
+                  "startColumn": 36,
+                  "endColumn": 47
+                },
+                {
+                  "line": 44,
+                  "startColumn": 36,
+                  "endColumn": 47
+                },
+                {
+                  "line": 31,
+                  "startColumn": 36,
+                  "endColumn": 47
+                },
+                {
+                  "line": 69,
+                  "startColumn": 36,
+                  "endColumn": 47
+                }
+              ]
+            },
+            {
+              "functionName": "javax.crypto.Cipher.doFinal",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 59,
+                  "startColumn": 27,
+                  "endColumn": 34
+                },
+                {
+                  "line": 47,
+                  "startColumn": 27,
+                  "endColumn": 34
+                },
+                {
+                  "line": 34,
+                  "startColumn": 27,
+                  "endColumn": 34
+                },
+                {
+                  "line": 71,
+                  "startColumn": 27,
+                  "endColumn": 34
+                }
+              ]
+            },
+            {
+              "functionName": "javax.crypto.spec.IvParameterSpec.IvParameterSpec",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 70,
+                  "startColumn": 55,
+                  "endColumn": 70
+                },
+                {
+                  "line": 58,
+                  "startColumn": 55,
+                  "endColumn": 70
+                }
+              ]
+            },
+            {
+              "functionName": "java.security.SecureRandom.nextBytes",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 81,
+                  "startColumn": 16,
+                  "endColumn": 25
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fileName": "src/main/java/etl/EtlEncryptionService.java",
+          "cryptoArtifacts": 7,
+          "cryptoInfo": [
+            {
+              "functionName": "javax.crypto.spec.SecretKeySpec.SecretKeySpec",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 35,
+                  "startColumn": 47,
+                  "endColumn": 60
+                }
+              ]
+            },
+            {
+              "functionName": "javax.crypto.spec.GCMParameterSpec.GCMParameterSpec",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 36,
+                  "startColumn": 44,
+                  "endColumn": 60
+                }
+              ]
+            },
+            {
+              "functionName": "javax.crypto.Cipher.getInstance",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 38,
+                  "startColumn": 36,
+                  "endColumn": 47
+                }
+              ]
+            },
+            {
+              "functionName": "javax.crypto.Cipher.init",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 39,
+                  "startColumn": 20,
+                  "endColumn": 24
+                }
+              ]
+            },
+            {
+              "functionName": "javax.crypto.Cipher.doFinal",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 40,
+                  "startColumn": 40,
+                  "endColumn": 47
+                }
+              ]
+            },
+            {
+              "functionName": "java.security.MessageDigest.getInstance",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 49,
+                  "startColumn": 46,
+                  "endColumn": 57
+                }
+              ]
+            },
+            {
+              "functionName": "java.security.MessageDigest.digest",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 50,
+                  "startColumn": 23,
+                  "endColumn": 29
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fileName": "src/main/java/x509/X509Example.java",
+          "cryptoArtifacts": 10,
+          "cryptoInfo": [
+            {
+              "functionName": "java.security.Security.addProvider",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 41,
+                  "startColumn": 22,
+                  "endColumn": 33
+                }
+              ]
+            },
+            {
+              "functionName": "java.security.spec.ECGenParameterSpec.ECGenParameterSpec",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 68,
+                  "startColumn": 36,
+                  "endColumn": 54
+                }
+              ]
+            },
+            {
+              "functionName": "java.security.KeyPairGenerator.generateKeyPair",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 69,
+                  "startColumn": 31,
+                  "endColumn": 46
+                },
+                {
+                  "line": 74,
+                  "startColumn": 31,
+                  "endColumn": 46
+                }
+              ]
+            },
+            {
+              "functionName": "java.security.KeyPairGenerator.getInstance",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 72,
+                  "startColumn": 57,
+                  "endColumn": 68
+                },
+                {
+                  "line": 67,
+                  "startColumn": 57,
+                  "endColumn": 68
+                }
+              ]
+            },
+            {
+              "functionName": "java.security.KeyPairGenerator.initialize",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 73,
+                  "startColumn": 21,
+                  "endColumn": 31
+                },
+                {
+                  "line": 68,
+                  "startColumn": 21,
+                  "endColumn": 31
+                }
+              ]
+            },
+            {
+              "functionName": "java.security.SecureRandom.SecureRandom",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 81,
+                  "startColumn": 56,
+                  "endColumn": 82
+                }
+              ]
+            },
+            {
+              "functionName": "org.bouncycastle.operator.jcajce.JcaContentSignerBuilder.JcaContentSignerBuilder",
+              "library": "BouncyCastle",
+              "locations": [
+                {
+                  "line": 97,
+                  "startColumn": 40,
+                  "endColumn": 63
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fileName": "src/main/java/signature/SignatureExample.java",
+          "cryptoArtifacts": 27,
+          "cryptoInfo": [
+            {
+              "functionName": "java.security.KeyPairGenerator.getInstance",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 32,
+                  "startColumn": 53,
+                  "endColumn": 64
+                },
+                {
+                  "line": 20,
+                  "startColumn": 66,
+                  "endColumn": 77
+                }
+              ]
+            },
+            {
+              "functionName": "java.security.KeyPairGenerator.initialize",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 33,
+                  "startColumn": 17,
+                  "endColumn": 27
+                },
+                {
+                  "line": 21,
+                  "startColumn": 30,
+                  "endColumn": 40
+                }
+              ]
+            },
+            {
+              "functionName": "java.security.spec.ECGenParameterSpec.ECGenParameterSpec",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 33,
+                  "startColumn": 32,
+                  "endColumn": 50
+                }
+              ]
+            },
+            {
+              "functionName": "java.security.KeyPairGenerator.generateKeyPair",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 34,
+                  "startColumn": 24,
+                  "endColumn": 39
+                },
+                {
+                  "line": 22,
+                  "startColumn": 37,
+                  "endColumn": 52
+                }
+              ]
+            },
+            {
+              "functionName": "java.security.Signature.initSign",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 45,
+                  "startColumn": 23,
+                  "endColumn": 31
+                },
+                {
+                  "line": 79,
+                  "startColumn": 17,
+                  "endColumn": 25
+                },
+                {
+                  "line": 113,
+                  "startColumn": 23,
+                  "endColumn": 31
+                }
+              ]
+            },
+            {
+              "functionName": "java.security.Signature.sign",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 47,
+                  "startColumn": 30,
+                  "endColumn": 34
+                },
+                {
+                  "line": 115,
+                  "startColumn": 30,
+                  "endColumn": 34
+                },
+                {
+                  "line": 81,
+                  "startColumn": 24,
+                  "endColumn": 28
+                }
+              ]
+            },
+            {
+              "functionName": "java.security.Signature.initVerify",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 58,
+                  "startColumn": 23,
+                  "endColumn": 33
+                },
+                {
+                  "line": 126,
+                  "startColumn": 23,
+                  "endColumn": 33
+                },
+                {
+                  "line": 100,
+                  "startColumn": 17,
+                  "endColumn": 27
+                }
+              ]
+            },
+            {
+              "functionName": "java.security.Signature.verify",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 60,
+                  "startColumn": 30,
+                  "endColumn": 36
+                },
+                {
+                  "line": 128,
+                  "startColumn": 30,
+                  "endColumn": 36
+                },
+                {
+                  "line": 102,
+                  "startColumn": 24,
+                  "endColumn": 30
+                }
+              ]
+            },
+            {
+              "functionName": "java.security.Signature.getInstance",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 70,
+                  "startColumn": 39,
+                  "endColumn": 50
+                },
+                {
+                  "line": 57,
+                  "startColumn": 45,
+                  "endColumn": 56
+                },
+                {
+                  "line": 91,
+                  "startColumn": 39,
+                  "endColumn": 50
+                },
+                {
+                  "line": 125,
+                  "startColumn": 45,
+                  "endColumn": 56
+                },
+                {
+                  "line": 44,
+                  "startColumn": 45,
+                  "endColumn": 56
+                },
+                {
+                  "line": 112,
+                  "startColumn": 45,
+                  "endColumn": 56
+                }
+              ]
+            },
+            {
+              "functionName": "java.security.spec.PSSParameterSpec.PSSParameterSpec",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 71,
+                  "startColumn": 44,
+                  "endColumn": 60
+                },
+                {
+                  "line": 92,
+                  "startColumn": 44,
+                  "endColumn": 60
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fileName": "src/main/java/random/SecureRandomExample.java",
+          "cryptoArtifacts": 2,
+          "cryptoInfo": [
+            {
+              "functionName": "java.security.SecureRandom.SecureRandom",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 9,
+                  "startColumn": 59,
+                  "endColumn": 71
+                }
+              ]
+            },
+            {
+              "functionName": "java.security.SecureRandom.nextBytes",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 15,
+                  "startColumn": 23,
+                  "endColumn": 32
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fileName": "src/main/java/keyderivation/Pbkdf2Example.java",
+          "cryptoArtifacts": 4,
+          "cryptoInfo": [
+            {
+              "functionName": "javax.crypto.spec.PBEKeySpec.PBEKeySpec",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 57,
+                  "startColumn": 35,
+                  "endColumn": 45
+                }
+              ]
+            },
+            {
+              "functionName": "javax.crypto.SecretKeyFactory.getInstance",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 58,
+                  "startColumn": 53,
+                  "endColumn": 64
+                }
+              ]
+            },
+            {
+              "functionName": "javax.crypto.SecretKeyFactory.generateSecret",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 59,
+                  "startColumn": 35,
+                  "endColumn": 49
+                }
+              ]
+            },
+            {
+              "functionName": "javax.crypto.spec.SecretKeySpec.SecretKeySpec",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 60,
+                  "startColumn": 24,
+                  "endColumn": 37
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fileName": "src/main/java/tls/SslContextExample.java",
+          "cryptoArtifacts": 7,
+          "cryptoInfo": [
+            {
+              "functionName": "java.security.KeyStore.getInstance",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 37,
+                  "startColumn": 72,
+                  "endColumn": 83
+                }
+              ]
+            },
+            {
+              "functionName": "java.security.KeyStore.load",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 39,
+                  "startColumn": 20,
+                  "endColumn": 24
+                }
+              ]
+            },
+            {
+              "functionName": "java.security.SecureRandom.SecureRandom",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 49,
+                  "startColumn": 72,
+                  "endColumn": 84
+                },
+                {
+                  "line": 68,
+                  "startColumn": 42,
+                  "endColumn": 54
+                }
+              ]
+            },
+            {
+              "functionName": "javax.net.ssl.SSLContext.getInstance",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 60,
+                  "startColumn": 41,
+                  "endColumn": 52
+                },
+                {
+                  "line": 30,
+                  "startColumn": 34,
+                  "endColumn": 45
+                },
+                {
+                  "line": 32,
+                  "startColumn": 34,
+                  "endColumn": 45
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fileName": "src/main/java/hmac/HmacExample.java",
+          "cryptoArtifacts": 6,
+          "cryptoInfo": [
+            {
+              "functionName": "java.security.SecureRandom.SecureRandom",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 25,
+                  "startColumn": 13,
+                  "endColumn": 25
+                }
+              ]
+            },
+            {
+              "functionName": "java.security.SecureRandom.nextBytes",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 25,
+                  "startColumn": 28,
+                  "endColumn": 37
+                }
+              ]
+            },
+            {
+              "functionName": "javax.crypto.Mac.getInstance",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 44,
+                  "startColumn": 27,
+                  "endColumn": 38
+                }
+              ]
+            },
+            {
+              "functionName": "javax.crypto.Mac.init",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 45,
+                  "startColumn": 17,
+                  "endColumn": 21
+                }
+              ]
+            },
+            {
+              "functionName": "javax.crypto.spec.SecretKeySpec.SecretKeySpec",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 45,
+                  "startColumn": 26,
+                  "endColumn": 39
+                }
+              ]
+            },
+            {
+              "functionName": "javax.crypto.Mac.doFinal",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 46,
+                  "startColumn": 24,
+                  "endColumn": 31
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fileName": "src/main/java/asymmetric/RsaCryptoExample.java",
+          "cryptoArtifacts": 11,
+          "cryptoInfo": [
+            {
+              "functionName": "java.security.KeyPairGenerator.getInstance",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 19,
+                  "startColumn": 66,
+                  "endColumn": 77
+                }
+              ]
+            },
+            {
+              "functionName": "java.security.KeyPairGenerator.initialize",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 20,
+                  "startColumn": 30,
+                  "endColumn": 40
+                }
+              ]
+            },
+            {
+              "functionName": "java.security.KeyPairGenerator.generateKeyPair",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 21,
+                  "startColumn": 37,
+                  "endColumn": 52
+                }
+              ]
+            },
+            {
+              "functionName": "javax.crypto.spec.OAEPParameterSpec.OAEPParameterSpec",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 30,
+                  "startColumn": 46,
+                  "endColumn": 63
+                },
+                {
+                  "line": 46,
+                  "startColumn": 46,
+                  "endColumn": 63
+                }
+              ]
+            },
+            {
+              "functionName": "javax.crypto.Cipher.doFinal",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 37,
+                  "startColumn": 27,
+                  "endColumn": 34
+                },
+                {
+                  "line": 53,
+                  "startColumn": 27,
+                  "endColumn": 34
+                }
+              ]
+            },
+            {
+              "functionName": "javax.crypto.Cipher.getInstance",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 45,
+                  "startColumn": 36,
+                  "endColumn": 47
+                },
+                {
+                  "line": 29,
+                  "startColumn": 36,
+                  "endColumn": 47
+                }
+              ]
+            },
+            {
+              "functionName": "javax.crypto.Cipher.init",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 52,
+                  "startColumn": 20,
+                  "endColumn": 24
+                },
+                {
+                  "line": 36,
+                  "startColumn": 20,
+                  "endColumn": 24
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fileName": "src/main/java/hash/HashExamples.java",
+          "cryptoArtifacts": 2,
+          "cryptoInfo": [
+            {
+              "functionName": "java.security.MessageDigest.getInstance",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 20,
+                  "startColumn": 50,
+                  "endColumn": 61
+                }
+              ]
+            },
+            {
+              "functionName": "java.security.MessageDigest.digest",
+              "library": "JCA",
+              "locations": [
+                {
+                  "line": 21,
+                  "startColumn": 27,
+                  "endColumn": 33
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

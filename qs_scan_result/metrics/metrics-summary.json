@@ -1,0 +1,208 @@
+{
+  "mapCollections": {
+    "java": {
+      "map": {
+        "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/asymmetric/RsaCryptoExample.java": {
+          "path": "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/asymmetric/RsaCryptoExample.java",
+          "totalLinesOfCode": 58,
+          "activeLinesOfCode": 50,
+          "methodDefined": 3,
+          "methodCalls": 14,
+          "variables": 10
+        },
+        "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/db/migration/MigrationUtil.java": {
+          "path": "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/db/migration/MigrationUtil.java",
+          "totalLinesOfCode": 9,
+          "activeLinesOfCode": 6,
+          "methodDefined": 0,
+          "methodCalls": 0,
+          "variables": 1
+        },
+        "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/db/migration/V19_1__Encrypt_existing_etl_tenants.java": {
+          "path": "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/db/migration/V19_1__Encrypt_existing_etl_tenants.java",
+          "totalLinesOfCode": 39,
+          "activeLinesOfCode": 27,
+          "methodDefined": 2,
+          "methodCalls": 12,
+          "variables": 9
+        },
+        "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/etl/EtlEncryptionService.java": {
+          "path": "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/etl/EtlEncryptionService.java",
+          "totalLinesOfCode": 55,
+          "activeLinesOfCode": 39,
+          "methodDefined": 2,
+          "methodCalls": 19,
+          "variables": 14
+        },
+        "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/hash/HashExamples.java": {
+          "path": "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/hash/HashExamples.java",
+          "totalLinesOfCode": 26,
+          "activeLinesOfCode": 19,
+          "methodDefined": 3,
+          "methodCalls": 5,
+          "variables": 5
+        },
+        "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/hmac/HmacExample.java": {
+          "path": "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/hmac/HmacExample.java",
+          "totalLinesOfCode": 88,
+          "activeLinesOfCode": 56,
+          "methodDefined": 4,
+          "methodCalls": 16,
+          "variables": 14
+        },
+        "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/jwt/JwtExample.java": {
+          "path": "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/jwt/JwtExample.java",
+          "totalLinesOfCode": 140,
+          "activeLinesOfCode": 88,
+          "methodDefined": 4,
+          "methodCalls": 40,
+          "variables": 26
+        },
+        "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/keyderivation/Pbkdf2Example.java": {
+          "path": "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/keyderivation/Pbkdf2Example.java",
+          "totalLinesOfCode": 74,
+          "activeLinesOfCode": 41,
+          "methodDefined": 3,
+          "methodCalls": 13,
+          "variables": 13
+        },
+        "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/random/SecureRandomExample.java": {
+          "path": "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/random/SecureRandomExample.java",
+          "totalLinesOfCode": 24,
+          "activeLinesOfCode": 13,
+          "methodDefined": 2,
+          "methodCalls": 4,
+          "variables": 3
+        },
+        "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/signature/SignatureExample.java": {
+          "path": "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/signature/SignatureExample.java",
+          "totalLinesOfCode": 141,
+          "activeLinesOfCode": 111,
+          "methodDefined": 10,
+          "methodCalls": 45,
+          "variables": 31
+        },
+        "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/symmetric/AesEncryptionExample.java": {
+          "path": "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/symmetric/AesEncryptionExample.java",
+          "totalLinesOfCode": 84,
+          "activeLinesOfCode": 62,
+          "methodDefined": 6,
+          "methodCalls": 27,
+          "variables": 23
+        },
+        "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/tls/SslContextExample.java": {
+          "path": "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/tls/SslContextExample.java",
+          "totalLinesOfCode": 83,
+          "activeLinesOfCode": 60,
+          "methodDefined": 7,
+          "methodCalls": 27,
+          "variables": 11
+        },
+        "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/web/boot/BootApplication.java": {
+          "path": "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/web/boot/BootApplication.java",
+          "totalLinesOfCode": 11,
+          "activeLinesOfCode": 9,
+          "methodDefined": 1,
+          "methodCalls": 1,
+          "variables": 1
+        },
+        "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/web/boot/controller/HelloController.java": {
+          "path": "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/web/boot/controller/HelloController.java",
+          "totalLinesOfCode": 55,
+          "activeLinesOfCode": 48,
+          "methodDefined": 4,
+          "methodCalls": 26,
+          "variables": 9
+        },
+        "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/web/boot/controller/TodoController.java": {
+          "path": "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/web/boot/controller/TodoController.java",
+          "totalLinesOfCode": 58,
+          "activeLinesOfCode": 48,
+          "methodDefined": 4,
+          "methodCalls": 25,
+          "variables": 8
+        },
+        "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/web/boot/model/ErrorResponse.java": {
+          "path": "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/web/boot/model/ErrorResponse.java",
+          "totalLinesOfCode": 34,
+          "activeLinesOfCode": 23,
+          "methodDefined": 4,
+          "methodCalls": 0,
+          "variables": 6
+        },
+        "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/web/boot/model/GreetingResponse.java": {
+          "path": "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/web/boot/model/GreetingResponse.java",
+          "totalLinesOfCode": 24,
+          "activeLinesOfCode": 15,
+          "methodDefined": 2,
+          "methodCalls": 0,
+          "variables": 3
+        },
+        "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/web/boot/model/TodoItem.java": {
+          "path": "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/web/boot/model/TodoItem.java",
+          "totalLinesOfCode": 40,
+          "activeLinesOfCode": 31,
+          "methodDefined": 6,
+          "methodCalls": 0,
+          "variables": 9
+        },
+        "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/web/boot/service/TodoService.java": {
+          "path": "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/web/boot/service/TodoService.java",
+          "totalLinesOfCode": 57,
+          "activeLinesOfCode": 48,
+          "methodDefined": 4,
+          "methodCalls": 24,
+          "variables": 12
+        },
+        "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/web/boot/util/StringUtil.java": {
+          "path": "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/web/boot/util/StringUtil.java",
+          "totalLinesOfCode": 15,
+          "activeLinesOfCode": 12,
+          "methodDefined": 2,
+          "methodCalls": 4,
+          "variables": 2
+        },
+        "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/web/resteasy/RestEasyApp.java": {
+          "path": "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/web/resteasy/RestEasyApp.java",
+          "totalLinesOfCode": 20,
+          "activeLinesOfCode": 17,
+          "methodDefined": 1,
+          "methodCalls": 3,
+          "variables": 1
+        },
+        "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/web/resteasy/UndertowServer.java": {
+          "path": "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/web/resteasy/UndertowServer.java",
+          "totalLinesOfCode": 25,
+          "activeLinesOfCode": 21,
+          "methodDefined": 1,
+          "methodCalls": 12,
+          "variables": 3
+        },
+        "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/web/resteasy/resource/MathResource.java": {
+          "path": "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/web/resteasy/resource/MathResource.java",
+          "totalLinesOfCode": 45,
+          "activeLinesOfCode": 39,
+          "methodDefined": 2,
+          "methodCalls": 11,
+          "variables": 10
+        },
+        "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/web/resteasy/resource/PingResource.java": {
+          "path": "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/web/resteasy/resource/PingResource.java",
+          "totalLinesOfCode": 38,
+          "activeLinesOfCode": 33,
+          "methodDefined": 2,
+          "methodCalls": 11,
+          "variables": 2
+        },
+        "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/x509/X509Example.java": {
+          "path": "/Users/I570104/Documents/SAP Signavio/PqcMigration/Repos/Abstracted-Crypto-Usage-QSE/src/main/java/x509/X509Example.java",
+          "totalLinesOfCode": 219,
+          "activeLinesOfCode": 160,
+          "methodDefined": 7,
+          "methodCalls": 82,
+          "variables": 47
+        }
+      }
+    }
+  }
+}
